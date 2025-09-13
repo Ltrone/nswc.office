@@ -1,0 +1,43 @@
+body {
+    font-size: 15pt;
+}
+
+.bodys{
+    width: 95vw;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgs{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 30px;
+    margin-top: 5vh;
+}
+.imgs img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.xz{
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    margin-top: 5vh;
+}
+
+.xz a{
+    width: 20vh;
+    height: 10vh;
+    text-align: center;
+    background: green;
+    border-radius: 20px;
+    outline: none;
+    color: #eee;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
